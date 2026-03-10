@@ -1,0 +1,174 @@
+﻿ source_airport_id | source_iata |               source_airport_name                |    source_city    |    source_country    | outgoing_routes 
+-------------------+-------------+--------------------------------------------------+-------------------+----------------------+-----------------
+              3682 | ATL         | Hartsfield Jackson Atlanta International Airport | Atlanta           | United States        |             915
+              3830 | ORD         | Chicago O'Hare International Airport             | Chicago           | United States        |             558
+              3364 | PEK         | Beijing Capital International Airport            | Beijing           | China                |             535
+               507 | LHR         | London Heathrow Airport                          | London            | United Kingdom       |             527
+              1382 | CDG         | Charles de Gaulle International Airport          | Paris             | France               |             524
+               340 | FRA         | Frankfurt am Main Airport                        | Frankfurt         | Germany              |             497
+              3484 | LAX         | Los Angeles International Airport                | Los Angeles       | United States        |             492
+              3670 | DFW         | Dallas Fort Worth International Airport          | Dallas-Fort Worth | United States        |             469
+              3797 | JFK         | John F Kennedy International Airport             | New York          | United States        |             456
+               580 | AMS         | Amsterdam Airport Schiphol                       | Amsterdam         | Netherlands          |             453
+              3406 | PVG         | Shanghai Pudong International Airport            | Shanghai          | China                |             411
+              3316 | SIN         | Singapore Changi Airport                         | Singapore         | Singapore            |             408
+              1218 | BCN         | Barcelona International Airport                  | Barcelona         | Spain                |             391
+              3930 | ICN         | Incheon International Airport                    | Seoul             | South Korea          |             370
+               346 | MUC         | Munich Airport                                   | Munich            | Germany              |             368
+              3576 | MIA         | Miami International Airport                      | Miami             | United States        |             368
+              3751 | DEN         | Denver International Airport                     | Denver            | United States        |             361
+              1701 | IST         | Atat├╝rk International Airport                    | Istanbul          | Turkey               |             358
+              2188 | DXB         | Dubai International Airport                      | Dubai             | United Arab Emirates |             356
+               502 | LGW         | London Gatwick Airport                           | London            | United Kingdom       |             356
+              3077 | HKG         | Hong Kong International Airport                  | Hong Kong         | Hong Kong            |             355
+              3370 | CAN         | Guangzhou Baiyun International Airport           | Guangzhou         | China                |             338
+              1555 | FCO         | Leonardo da VinciΓÇôFiumicino Airport              | Rome              | Italy                |             331
+              1229 | MAD         | Adolfo Su├írez MadridΓÇôBarajas Airport             | Madrid            | Spain                |             330
+              3885 | BKK         | Suvarnabhumi Airport                             | Bangkok           | Thailand             |             326
+(25 rows)
+
+ airport_id | iata |                       name                       |       city        |       country        | out_routes | in_routes | total_routes 
+------------+------+--------------------------------------------------+-------------------+----------------------+------------+-----------+--------------
+       3682 | ATL  | Hartsfield Jackson Atlanta International Airport | Atlanta           | United States        |        915 |       911 |         1826
+       3830 | ORD  | Chicago O'Hare International Airport             | Chicago           | United States        |        558 |       550 |         1108
+       3364 | PEK  | Beijing Capital International Airport            | Beijing           | China                |        535 |       534 |         1069
+        507 | LHR  | London Heathrow Airport                          | London            | United Kingdom       |        527 |       524 |         1051
+       1382 | CDG  | Charles de Gaulle International Airport          | Paris             | France               |        524 |       517 |         1041
+       3484 | LAX  | Los Angeles International Airport                | Los Angeles       | United States        |        492 |       498 |          990
+        340 | FRA  | Frankfurt am Main Airport                        | Frankfurt         | Germany              |        497 |       493 |          990
+       3670 | DFW  | Dallas Fort Worth International Airport          | Dallas-Fort Worth | United States        |        469 |       467 |          936
+       3797 | JFK  | John F Kennedy International Airport             | New York          | United States        |        456 |       455 |          911
+        580 | AMS  | Amsterdam Airport Schiphol                       | Amsterdam         | Netherlands          |        453 |       450 |          903
+       3406 | PVG  | Shanghai Pudong International Airport            | Shanghai          | China                |        411 |       414 |          825
+       3316 | SIN  | Singapore Changi Airport                         | Singapore         | Singapore            |        408 |       412 |          820
+       1218 | BCN  | Barcelona International Airport                  | Barcelona         | Spain                |        391 |       392 |          783
+       3930 | ICN  | Incheon International Airport                    | Seoul             | South Korea          |        370 |       370 |          740
+       3751 | DEN  | Denver International Airport                     | Denver            | United States        |        361 |       374 |          735
+       3576 | MIA  | Miami International Airport                      | Miami             | United States        |        368 |       366 |          734
+        346 | MUC  | Munich Airport                                   | Munich            | Germany              |        368 |       360 |          728
+       1701 | ISL  | Atat├╝rk International Airport                    | Istanbul          | Turkey               |        358 |       361 |          719
+       3077 | HKG  | Hong Kong International Airport                  | Hong Kong         | Hong Kong            |        355 |       355 |          710
+       2188 | DXB  | Dubai International Airport                      | Dubai             | United Arab Emirates |        356 |       354 |          710
+        502 | LGW  | London Gatwick Airport                           | London            | United Kingdom       |        356 |       352 |          708
+       3370 | CAN  | Guangzhou Baiyun International Airport           | Guangzhou         | China                |        338 |       336 |          674
+       1555 | FCO  | Leonardo da VinciΓÇôFiumicino Airport              | Rome              | Italy                |        331 |       331 |          662
+       1229 | MAD  | Adolfo Su├írez MadridΓÇôBarajas Airport             | Madrid            | Spain                |        330 |       331 |          661
+       3885 | BKK  | Suvarnabhumi Airport                             | Bangkok           | Thailand             |        326 |       330 |          656
+(25 rows)
+
+       country        | routes_touching_country 
+----------------------+-------------------------
+ United States        |                   26193
+ China                |                   16424
+ United Kingdom       |                    5300
+ Spain                |                    5065
+ Germany              |                    4688
+ France               |                    3856
+ Canada               |                    3705
+ Russia               |                    3662
+ Italy                |                    3555
+ India                |                    2864
+ Brazil               |                    2784
+ Japan                |                    2577
+ Australia            |                    2210
+ Mexico               |                    2114
+ Turkey               |                    1963
+ Indonesia            |                    1665
+ Greece               |                    1601
+ United Arab Emirates |                    1492
+ Norway               |                    1291
+ Thailand             |                    1209
+ South Korea          |                    1178
+ Netherlands          |                    1136
+ Malaysia             |                    1130
+ Saudi Arabia         |                    1112
+ Portugal             |                    1071
+(25 rows)
+
+ src_iata | dst_iata | route_rows 
+----------+----------+------------
+ ORD      | ATL      |         20
+ ATL      | ORD      |         19
+ HKT      | BKK      |         13
+ ORD      | MSY      |         13
+ HKG      | BKK      |         12
+ ATL      | MIA      |         12
+ BKK      | HKG      |         12
+ JFK      | LHR      |         12
+ MIA      | ATL      |         12
+ AUH      | MCT      |         12
+ CAN      | HGH      |         12
+ LHR      | JFK      |         12
+ DOH      | BAH      |         12
+ MCT      | AUH      |         11
+ MSY      | JFK      |         11
+ DEN      | ATL      |         11
+ CDG      | JFK      |         11
+ JFK      | CDG      |         11
+ HRE      | LUN      |         11
+ SYD      | AKL      |         11
+ LAX      | LHR      |         11
+ ATL      | DEN      |         11
+ KGL      | EBB      |         11
+ LHR      | LAX      |         11
+ CNX      | BKK      |         11
+(25 rows)
+
+         airline          | routes_count 
+--------------------------+--------------
+ Ryanair                  |         2484
+ American Airlines        |         2354
+ United Airlines          |         2180
+ Delta Air Lines          |         1981
+ US Airways               |         1960
+ China Southern Airlines  |         1454
+ China Eastern Airlines   |         1263
+ Air China                |         1260
+ Southwest Airlines       |         1146
+ easyJet                  |         1130
+ Air France               |         1071
+ Lufthansa                |          923
+ Alitalia                 |          877
+ Iberia Airlines          |          831
+ KLM Royal Dutch Airlines |          830
+ Shenzhen Airlines        |          815
+ Air Berlin               |          798
+ AirTran Airways          |          726
+ Air Canada               |          705
+ Turkish Airlines         |          658
+ Norwegian Air Shuttle    |          576
+ Hainan Airlines          |          555
+ British Airways          |          549
+ All Nippon Airways       |          547
+ Alaska Airlines          |          530
+(25 rows)
+
+ src_iata | dst_iata | airlines_on_route 
+----------+----------+-------------------
+ ORD      | ATL      |                20
+ ATL      | ORD      |                19
+ ORD      | MSY      |                13
+ HKT      | BKK      |                13
+ BKK      | HKG      |                12
+ MIA      | ATL      |                12
+ JFK      | LHR      |                12
+ CAN      | HGH      |                12
+ HKG      | BKK      |                12
+ AUH      | MCT      |                12
+ DOH      | BAH      |                12
+ LHR      | JFK      |                12
+ ATL      | MIA      |                12
+ LHR      | LAX      |                11
+ DEN      | ATL      |                11
+ MCT      | AUH      |                11
+ MSY      | JFK      |                11
+ KGL      | EBB      |                11
+ HRE      | LUN      |                11
+ JFK      | CDG      |                11
+ LAX      | LHR      |                11
+ JFK      | MSY      |                11
+ CDG      | JFK      |                11
+ ATL      | DFW      |                11
+ CNX      | BKK      |                11
+(25 rows)
+
