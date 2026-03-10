@@ -1,6 +1,8 @@
 # OpenFlightsPipeline
 A simple data engineering pipeline that ingests aviation data from the OpenFlights dataset, cleans and transforms it using Python, stores it in PostgreSQL, and generates analytical insights using SQL.
 
+OpenFlights API → Python → PostgreSQL → SQL Analytics
+
 Dataset:
 OpenFlights Dataset
 https://openflights.org/data.html
